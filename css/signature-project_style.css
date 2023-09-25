@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ysabeau+Infant:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caramel&family=Poppins&family=Raleway&display=swap');
+
+html,body{
+    /* text styles/title/medium */
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    height: auto;
+    }
+    
+    .header .btn
+    {
+        font-family: 'Raleway';
+        font-size: 16px;
+        font-style: 'normal';
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .nav-link:hover
+    {
+        color: #E9C400;
+    }
+
+
+    .bg_slide
+    {
+        background:linear-gradient(271deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.85)),url('project\ picture.png');
+        background-size: cover;
+        
+        height: 564px;
+    }
+    
+    .bg_slide .container h1{
+        font-family: 'Bebas Neue';
+    font-size: 64px;
+    font-style: 'normal';
+    font-weight: 400;
+    line-height: 64px; /* 100% */
+    color: white;
+    padding-top: 40%;
+    margin-left: -2%;
+    margin-top: 10%;
+    }
+    
+    .bg_slide .container .p
+    {
+        color: white;
+        font-family: 'Arial';
+    font-size: 16px;
+    font-style: 'normal';
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    }
+
+    .bg_slide .container .vl{
+        border: 10px solid #E9C400;
+        
+    }
+
+
+    .about
+    {
+        margin-top: 5%;
+        height:600px;
+    }
+
+    .icons i
+    {
+        margin-right: 1em;
+    }
+
+    .about-text span
+    {
+        color: rgba(255, 255, 255, 0.75);
+
+     /* text system/body/large */
+       font-family: Arial;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 24px; /* 150% */
+       margin-left: 1%;
+    }
+
+    .about-text p{
+        color: #FFF;
+
+/* text system/title/large */
+font-family: 'Raleway';
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 127.273% */
+    }
+
+    .about-text h2{
+        font-family: 'Bebas Neue';
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px;
+    }
+
+.gallery-part
+{
+    
+height: 700px;
+}
+
+#first-order
+{
+    margin-left: 15%;
+}
+
+
+
+.hr
+  {
+    border:3px solid #E9C400;
+    width: 100%;
+    
+  }
+
+ 
+
+    @media screen and (max-width: 960px)
+    {
+        .about
+        {
+            margin-top: 15%;
+            
+        }
+
+        #gallery
+        {   
+            margin-top: 180%;
+            
+        }
+
+        #album
+        {
+            margin-right: 10%;
+            
+        }
+
+        .footer
+        {
+            
+        margin-top: 325%;
+            
+        }
+        
+    }
+    
+   
+
+    
+

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway&display=swap');
+
+.nav-link:hover
+{
+    color: #E9C400;
+}
+
+
+html,body{
+  /* text styles/title/medium */
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  }
+  
+  .header .btn
+  {
+      font-family: 'Raleway';
+  font-size: 16px;
+  font-style: 'normal';
+  font-weight: 700;
+  line-height: 24px;
+  }
+
+
+  .first_slide
+  {
+   
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%),url('bg-home.jpeg');
+    background-size: cover;
+    height: 640px;
+  }
+
+  
+
+  .first_slide .h1
+  {
+    font-family: 'Bebas Neue';
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+  }
+
+  .h1{
+    border-left: 14px solid #E9C400;
+  }
+
+  .content
+  {
+    background-color: #1D1B15;
+    height: 300px;
+    width: 1670px;
+  }
+
+  .content p
+  {
+    font-family: 'Raleway';
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+  }
+
+
+  /*footer part*/
+
+  footer{
+   
+    background-color: black;
+    width: 1670px;
+    height: 289px;
+    padding-top: 2%;
+  }
+
+  footer .row{
+    margin-left :0;
+   }
+
+   .hr
+  {
+    border:3px solid #E9C400;
+    width: 100%;
+    
+  }
+
+ 
+
+
+  @media screen and (max-width: 960px)
+  {
+    
+    .content p
+    {
+        width:25%;
+    }
+
+    .content
+  {
+    background-color: #1D1B15;
+    height: 350px;
+    width: 1470px;
+  }
+
+
+ .first_slide .container .row{
+    margin-left: 1%;
+ }
+
+  footer{
+    width: 423px;
+    height: 770px;
+    margin-top: 0%;
+    padding-top: 5%;
+  }
+
+  #footer
+  {
+    align-items: center;
+    margin-right: 60%;
+    margin-left: -15%;
+    
+  }
+
+  .hr
+  {
+    width: 100%;
+    border:2px solid #E9C400;
+    
+  }
+
+  .footer .row{
+    margin-left: 35%;
+  }
+
+  #copyright
+  {
+    width: 100%;
+    margin-left: 15%;
+  }
+ 
+
+   
+    
+}
+
