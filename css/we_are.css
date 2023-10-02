@@ -140,9 +140,26 @@ line-height: 44px;
 color: #FFF;
 }
 
+.fiveth_slide .counter
+{
+  color: #FFF;
+
+/* text system/display/large */
+font-family: 'Bebas Neue';
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px; /* 100% */
+margin-top: 25px;
+width: 100%;
+
+}
+
 .fiveth_slide span
 {
   color: #E9C400;
+  font-size: 64px;
+  display: inline-block;
 }
 
 .fiveth_slide h1
